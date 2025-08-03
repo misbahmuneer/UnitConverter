@@ -6,10 +6,9 @@ int main() {
     int choice;
     float input, result;
 
-    printf("====== UNIT CONVERTER ======\n");
+    printf("              *** UNIT CONVERTER ***\n");
     printf("Select a category:\n");
     printf("1. Mass\n2. Angle\n3. Temperature\n4. Currency (USD/INR)\n5. Energy\n6. Length\n7. Speed\n");
-    printf("Enter your choice (1-7): ");
     scanf("%d", &category);
 
     switch(category) {
