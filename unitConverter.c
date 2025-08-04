@@ -2,6 +2,7 @@
 #include <math.h>
 
 int main() {
+    while(1){
     int category;
     int choice;
     float input, result;
@@ -167,7 +168,14 @@ int main() {
         default:
             printf("Invalid category. Please choose from 1 to 7.\n");
     }
-
+         int user;
+    printf("do you want to continue,enter 1 for yes and 0 for no");
+    scanf("%d",& user);
+    if(user==0){
+        break;
+    }
+        
+    }
     return 0;
 
 }
